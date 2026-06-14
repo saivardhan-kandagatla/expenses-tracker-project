@@ -47,8 +47,7 @@ The application database `expenses.db` will be initialized automatically with be
 ### 🖥️ 1. Main Dashboard View
 The main application interface displaying real-time balance metrics, recent transactions table, and category filters.
 ![Main Dashboard]
-(<img width="588" height="275" alt="Screenshot 2026-06-14 172456" src="https://github.com/user-attachments/assets/f261560e-27fa-4681-9b46-89df4cdb94b5" />
-.png)
+(<img width="588" height="275" alt="Screenshot 2026-06-14 172456" src="https://github.com/user-attachments/assets/f261560e-27fa-4681-9b46-89df4cdb94b5" />)
 
 ### 📊 2. Charts & Financial Visualizations
 Dynamic doughnut breakdown of expenses by category and monthly cash flow trend charts.
