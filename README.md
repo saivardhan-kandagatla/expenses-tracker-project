@@ -46,12 +46,15 @@ The application database `expenses.db` will be initialized automatically with be
 
 ### 🖥️ 1. Main Dashboard View
 The main application interface displaying real-time balance metrics, recent transactions table, and category filters.
-![Main Dashboard](screenshot.png)
+![Main Dashboard](<img width="588" height="275" alt="Screenshot 2026-06-14 172456" src="https://github.com/user-attachments/assets/f261560e-27fa-4681-9b46-89df4cdb94b5" />
+.png)
 
 ### 📊 2. Charts & Financial Visualizations
 Dynamic doughnut breakdown of expenses by category and monthly cash flow trend charts.
-![Charts & Visualizations](screenshot_charts.png)
+![Recent Transactions](<img width="623" height="236" alt="Screenshot 2026-06-14 172602" src="https://github.com/user-attachments/assets/78ab1bb2-8972-4e0f-8a48-84d3dd7d8692" />
+.png)
 
 ### 📝 3. Add & Edit Transaction Dialog
 Clean glassmorphic modal overlay to add new incomes or expenses with form validations and dynamic categories.
-![Add Transaction Dialog](screenshot_modal.png)
+![Add Transaction Dialog](<img width="200" height="272" alt="Screenshot 2026-06-14 172652" src="https://github.com/user-attachments/assets/52d1ed9d-a510-4a7b-8c32-9183f9261807" />
+.png)
