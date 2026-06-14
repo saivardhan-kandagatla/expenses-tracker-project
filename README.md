@@ -1,6 +1,5 @@
 # Expense Tracker App
 
-![Expense Tracker Dashboard](screenshot.png)
 
 Expense Tracker is a highly polished, responsive expense tracking dashboard built with **HTML**, **Vanilla CSS**, **JavaScript (ES6)**, and a **Python (Flask)** backend with a **SQLite** database.
 
