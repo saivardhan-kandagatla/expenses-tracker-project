@@ -39,3 +39,19 @@ Open your web browser and navigate to:
 [http://localhost:5000](http://localhost:5000)
 
 The application database `expenses.db` will be initialized automatically with beautiful mock seed transactions so the charts and history load populated on the first boot.
+
+---
+
+## App Walkthrough & Screenshots
+
+### 🖥️ 1. Main Dashboard View
+The main application interface displaying real-time balance metrics, recent transactions table, and category filters.
+![Main Dashboard](screenshot.png)
+
+### 📊 2. Charts & Financial Visualizations
+Dynamic doughnut breakdown of expenses by category and monthly cash flow trend charts.
+![Charts & Visualizations](screenshot_charts.png)
+
+### 📝 3. Add & Edit Transaction Dialog
+Clean glassmorphic modal overlay to add new incomes or expenses with form validations and dynamic categories.
+![Add Transaction Dialog](screenshot_modal.png)
