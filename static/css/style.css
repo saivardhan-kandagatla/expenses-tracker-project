@@ -887,3 +887,119 @@ textarea {
     color: var(--expense);
     margin: 0 2px;
 }
+
+/* --- Responsive Adjustments for Mobile and Tablet --- */
+@media (max-width: 768px) {
+    .app-container {
+        padding: 1rem 0.8rem;
+    }
+    
+    .app-header {
+        flex-direction: column;
+        gap: 1.2rem;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.8rem;
+    }
+    
+    .stats-container {
+        gap: 1rem;
+    }
+    
+    .stat-card {
+        padding: 1.2rem 1rem;
+        gap: 1rem;
+    }
+    
+    .stat-icon {
+        width: 46px;
+        height: 46px;
+        font-size: 1.2rem;
+    }
+    
+    .stat-value {
+        font-size: 1.5rem;
+    }
+    
+    /* Responsive Form Controls in Table header */
+    .transactions-header-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+    
+    .controls-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        gap: 0.8rem;
+    }
+    
+    .search-box {
+        width: 100%;
+    }
+    
+    .filter-dropdown select {
+        width: 100%;
+    }
+    
+    /* Hide Description column on tablet and mobile */
+    .transactions-table th:nth-child(4),
+    .transactions-table td:nth-child(4) {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .charts-grid {
+        gap: 1rem;
+    }
+    
+    .chart-card {
+        padding: 1rem;
+    }
+    
+    .chart-wrapper {
+        height: 240px;
+    }
+    
+    .transactions-card {
+        padding: 1rem;
+    }
+    
+    /* Hide Date column on small mobile devices to fit screen comfortably */
+    .transactions-table th:nth-child(3),
+    .transactions-table td:nth-child(3) {
+        display: none;
+    }
+    
+    .transactions-table th, 
+    .transactions-table td {
+        padding: 0.8rem 0.6rem;
+    }
+    
+    .tx-icon-circle {
+        width: 30px;
+        height: 30px;
+        font-size: 0.75rem;
+    }
+    
+    .amount-text {
+        font-size: 0.95rem;
+    }
+    
+    /* Modal content customization for small viewports */
+    .modal-content {
+        padding: 1.5rem;
+        border-radius: 18px;
+    }
+    
+    .modal-header {
+        margin-bottom: 1.2rem;
+    }
+    
+    .modal-header h2 {
+        font-size: 1.35rem;
+    }
+}
