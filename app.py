@@ -3,7 +3,12 @@ import sqlite3
 from flask import Flask, request, jsonify, render_template
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
-DATABASE = 'expenses.db'
+
+# Use Vercel's writable /tmp folder for SQLite database in serverless functions
+if os.environ.get('VERCEL'):
+    DATABASE = '/tmp/expenses.db'
+else:
+    DATABASE = 'expenses.db'
 
 def get_db_connection():
     conn = sqlite3.connect(DATABASE)
